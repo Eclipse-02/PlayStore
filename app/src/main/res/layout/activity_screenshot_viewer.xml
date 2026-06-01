@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <io.getstream.photoview.PhotoView
+        android:id="@+id/photoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter" />
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:padding="12dp"
+        android:src="@drawable/arrow_left_alt_20px"
+        android:background="@drawable/bg_circle_translucent"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="Back" />
+
+</FrameLayout>

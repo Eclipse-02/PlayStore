@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_clear"
+        android:icon="@drawable/close_20px"
+        android:title="Clear" />
+
+    <item
+        android:id="@+id/action_more_like"
+        android:icon="@drawable/thumb_up_20px"
+        android:title="More Like This" />
+
+    <item
+        android:id="@+id/action_less_like"
+        android:icon="@drawable/thumb_down_20px"
+        android:title="Less Like This" />
+</menu>

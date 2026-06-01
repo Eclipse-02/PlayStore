@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- PRIMARY -->
+    <color name="blue_primary">#90CAF9</color>
+    <color name="blue_on_primary">#000000</color>
+    <color name="blue_primary_container">#330D47A1</color>
+    <color name="blue_on_primary_container">#E3F2FD</color>
+
+    <!-- SECONDARY -->
+    <color name="blue_secondary">#90CAF9</color>
+    <color name="blue_on_secondary">#000000</color>
+
+    <!-- TERTIARY -->
+    <color name="blue_tertiary">#90CAF9</color>
+    <color name="blue_on_tertiary">#000000</color>
+
+    <!-- SURFACE -->
+    <color name="surface_light">#121212</color>
+    <color name="background_light">#121212</color>
+
+    <!-- TEXT -->
+    <color name="text_primary_light">#FFFFFF</color>
+    <color name="text_secondary_light">#B0B0B0</color>
+
+    <!-- OUTLINE -->
+    <color name="outline_light">#2A2A2A</color>
+
+    <!-- RIPPLE -->
+    <color name="blue_ripple">#331976D2</color>
+
+</resources>

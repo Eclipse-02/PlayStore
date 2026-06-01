@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorSurface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/header_padding_top"
+        android:paddingHorizontal="16dp"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:layout_width="@dimen/header_icon_size_main"
+            android:layout_height="@dimen/header_icon_size_main"
+            android:src="@drawable/gp_trans" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivNotification"
+                android:layout_width="@dimen/header_icon_size_secondary"
+                android:layout_height="@dimen/header_icon_size_secondary"
+                android:src="@drawable/notifications_20px" />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginStart="-4dp"
+                android:background="@drawable/bg_badge_dot" />
+        </LinearLayout>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="@dimen/header_icon_size_main"
+            android:layout_height="@dimen/header_icon_size_main"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/user_main"
+            app:shapeAppearanceOverlay="@style/RoundedImage" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="24dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="@dimen/profile_image_size"
+                android:layout_height="@dimen/profile_image_size"
+                android:src="@drawable/user_main"
+                app:shapeAppearanceOverlay="@style/ProfileImage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hi, Rafa Umar"
+                android:textSize="@dimen/profile_greeting_text_size"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnSurface"
+                android:layout_marginTop="16dp" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                app:cardCornerRadius="24dp"
+                app:cardBackgroundColor="?attr/colorPrimaryContainer"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/btnWishlist"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/profile_menu_item_height"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:paddingHorizontal="16dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                        <ImageView
+                            android:layout_width="@dimen/profile_menu_icon_size"
+                            android:layout_height="@dimen/profile_menu_icon_size"
+                            android:src="@drawable/bookmark_check_20px"
+                            app:tint="?attr/colorOnSurface" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Wishlist"
+                            android:textSize="@dimen/profile_menu_text_size"
+                            android:textColor="?attr/colorOnSurface"
+                            android:layout_marginStart="16dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="4dp"
+                        android:background="?android:attr/colorBackground" />
+
+                    <LinearLayout
+                        android:id="@+id/btnInstalled"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/profile_menu_item_height"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:paddingHorizontal="16dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?attr/selectableItemBackground">
+
+                        <ImageView
+                            android:layout_width="@dimen/profile_menu_icon_size"
+                            android:layout_height="@dimen/profile_menu_icon_size"
+                            android:src="@drawable/download_done_20px"
+                            app:tint="?attr/colorOnSurface" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Installed"
+                            android:textSize="@dimen/profile_menu_text_size"
+                            android:textColor="?attr/colorOnSurface"
+                            android:layout_marginStart="16dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

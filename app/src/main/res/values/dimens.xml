@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Featured App Card -->
+    <dimen name="featured_card_width">340dp</dimen>
+    <dimen name="featured_card_height">260dp</dimen>
+    <dimen name="featured_banner_height">180dp</dimen>
+    <dimen name="featured_icon_size">50dp</dimen>
+    <dimen name="featured_text_size_name">16sp</dimen>
+    <dimen name="featured_text_size_publisher">14sp</dimen>
+
+    <!-- Recommended App Card -->
+    <dimen name="recommended_icon_size">56dp</dimen>
+    <dimen name="recommended_text_size_name">16sp</dimen>
+    <dimen name="recommended_text_size_description">12sp</dimen>
+
+    <!-- Suggested App Card -->
+    <dimen name="suggested_card_width">240dp</dimen>
+    <dimen name="suggested_banner_height">120dp</dimen>
+    <dimen name="suggested_icon_size">50dp</dimen>
+    <dimen name="suggested_text_size_name">14sp</dimen>
+
+    <!-- Search App Item -->
+    <dimen name="search_icon_size">56dp</dimen>
+    <dimen name="search_text_size_name">16sp</dimen>
+    <dimen name="search_text_size_publisher">14sp</dimen>
+
+    <!-- Category Item -->
+    <dimen name="category_card_height">100dp</dimen>
+    <dimen name="category_icon_size">32dp</dimen>
+    <dimen name="category_text_size_name">16sp</dimen>
+
+    <!-- Profile View -->
+    <dimen name="profile_image_size">96dp</dimen>
+    <dimen name="profile_greeting_text_size">20sp</dimen>
+    <dimen name="profile_menu_item_height">56dp</dimen>
+    <dimen name="profile_menu_icon_size">24dp</dimen>
+    <dimen name="profile_menu_text_size">16sp</dimen>
+
+    <!-- App Details -->
+    <dimen name="details_app_icon_size">60dp</dimen>
+    <dimen name="details_screenshot_height">200dp</dimen>
+
+    <!-- Header Scaling -->
+    <dimen name="header_icon_size_main">32dp</dimen>
+    <dimen name="header_icon_size_secondary">24dp</dimen>
+    <dimen name="header_text_size_title">20sp</dimen>
+    <dimen name="header_back_icon_size">28dp</dimen>
+    <dimen name="header_padding_top">0dp</dimen>
+
+    <!-- Notification Item -->
+    <dimen name="notification_icon_size">56dp</dimen>
+    <dimen name="notification_text_size_title">16sp</dimen>
+    <dimen name="notification_text_size_body">14sp</dimen>
+</resources>

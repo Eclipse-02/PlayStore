@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_wishlist"
+        android:icon="@drawable/bookmark_add_20px"
+        android:title="Wishlist" />
+</menu>

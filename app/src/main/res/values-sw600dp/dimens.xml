@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Featured App Card - Scaled for Tablet -->
+    <dimen name="featured_card_width">500dp</dimen>
+    <dimen name="featured_card_height">380dp</dimen>
+    <dimen name="featured_banner_height">280dp</dimen>
+    <dimen name="featured_icon_size">70dp</dimen>
+    <dimen name="featured_text_size_name">22sp</dimen>
+    <dimen name="featured_text_size_publisher">18sp</dimen>
+
+    <!-- Recommended App Card - Scaled for Tablet -->
+    <dimen name="recommended_icon_size">80dp</dimen>
+    <dimen name="recommended_text_size_name">20sp</dimen>
+    <dimen name="recommended_text_size_description">16sp</dimen>
+
+    <!-- Suggested App Card - Scaled for Tablet -->
+    <dimen name="suggested_card_width">360dp</dimen>
+    <dimen name="suggested_banner_height">180dp</dimen>
+    <dimen name="suggested_icon_size">70dp</dimen>
+    <dimen name="suggested_text_size_name">18sp</dimen>
+
+    <!-- Search App Item - Scaled for Tablet -->
+    <dimen name="search_icon_size">80dp</dimen>
+    <dimen name="search_text_size_name">20sp</dimen>
+    <dimen name="search_text_size_publisher">16sp</dimen>
+
+    <!-- Category Item - Scaled for Tablet -->
+    <dimen name="category_card_height">140dp</dimen>
+    <dimen name="category_icon_size">48dp</dimen>
+    <dimen name="category_text_size_name">20sp</dimen>
+
+    <!-- Profile View - Scaled for Tablet -->
+    <dimen name="profile_image_size">140dp</dimen>
+    <dimen name="profile_greeting_text_size">28sp</dimen>
+    <dimen name="profile_menu_item_height">72dp</dimen>
+    <dimen name="profile_menu_icon_size">32dp</dimen>
+    <dimen name="profile_menu_text_size">20sp</dimen>
+
+    <!-- App Details - Scaled for Tablet -->
+    <dimen name="details_app_icon_size">120dp</dimen>
+    <dimen name="details_screenshot_height">350dp</dimen>
+
+    <!-- Header Scaling - Tablet -->
+    <dimen name="header_icon_size_main">48dp</dimen>
+    <dimen name="header_icon_size_secondary">36dp</dimen>
+    <dimen name="header_text_size_title">28sp</dimen>
+    <dimen name="header_back_icon_size">40dp</dimen>
+    <dimen name="header_padding_top">24dp</dimen>
+
+    <!-- Notification Item - Tablet -->
+    <dimen name="notification_icon_size">80dp</dimen>
+    <dimen name="notification_text_size_title">20sp</dimen>
+    <dimen name="notification_text_size_body">16sp</dimen>
+</resources>

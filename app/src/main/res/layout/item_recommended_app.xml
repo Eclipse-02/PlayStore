@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorSurface"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:clipChildren="true"
+    app:cardCornerRadius="20dp"
+    app:cardPreventCornerOverlap="false"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="12dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivApp"
+            android:layout_width="@dimen/recommended_icon_size"
+            android:layout_height="@dimen/recommended_icon_size"
+            app:shapeAppearanceOverlay="@style/RoundedImage" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="@dimen/recommended_text_size_name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:textSize="@dimen/recommended_text_size_description" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    app:cardBackgroundColor="?attr/colorPrimaryContainer"
+                    app:cardCornerRadius="32dp"
+                    app:cardPreventCornerOverlap="false"
+                    app:contentPadding="2dp"
+                    app:contentPaddingLeft="4dp"
+                    app:contentPaddingRight="4dp"
+                    app:strokeWidth="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvRating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="4dp"
+                            android:textColor="?attr/colorOnSurfaceVariant"
+                            android:textSize="11sp" />
+
+                        <ImageView
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:src="@drawable/star_20px"
+                            app:tint="?attr/colorPrimary" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    android:id="@+id/tvSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textColor="?attr/colorOnSurfaceVariant"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
